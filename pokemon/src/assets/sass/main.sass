@@ -1,0 +1,57 @@
+@import './base.css'
+
+header
+  line-height: 1.5
+  max-height: 100vh
+
+.container
+  padding: 1rem
+
+h1
+  color: black
+  text-align: center
+
+section
+  list-style: none
+  color: black
+
+  margin-top: 2em
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  gap: 1rem
+
+.col-3
+  width: 100%
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  align-items: center
+
+.card
+  background: #e7e7e7
+  margin-bottom: 1em
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2)
+  display: flex
+  justify-content: center
+
+  border-radius: 10px
+
+  width: 20rem
+  aspect-ratio: 1
+
+  & div
+    text-align: center
+
+.img_card
+  width: 10rem
+  aspect-ratio: 1
+
+  & img
+    filter: drop-shadow(0 10px 2px rgba(0, 0, 0, 0.2))
+    width: 10rem
+
+.pokemon_stats
+  display: flex
+  justify-content: center
+  gap: 2em
